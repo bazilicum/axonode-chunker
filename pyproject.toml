@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "axonode-chunker"
-version = "0.1.0"
+version = "0.1.1"
 description = "A semantic text chunking package for intelligent document processing"
 readme = "README.md"
 license = {text = "MIT"}
@@ -53,9 +53,9 @@ all = [
 axonode-chunker-demo = "examples.basic_usage:main"
 
 [project.urls]
-Homepage = "https://github.com/axonode/axonode-chunker"
-Repository = "https://github.com/axonode/axonode-chunker"
-Issues = "https://github.com/axonode/axonode-chunker/issues"
+Homepage = "https://github.com/bazilicum/axonode-chunker"
+Repository = "https://github.com/bazilicum/axonode-chunker"
+Issues = "https://github.com/bazilicum/axonode-chunker/issues"
 Author = "https://www.linkedin.com/in/erez-azaria/"
 
 [tool.setuptools.packages.find]
