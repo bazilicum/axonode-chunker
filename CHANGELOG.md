@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2024-12-19
+
+### Changed
+- **BREAKING**: Relaxed dependency version constraints for better compatibility
+  - `numpy`: Now supports ≥1.21.0 (removed upper bound <2.0.0)
+  - `nltk`: Now supports ≥3.8 (removed upper bound <4.0.0)
+  - `scikit-learn`: Now supports ≥1.0.0 (removed upper bound <1.6.0)
+  - `langchain-core`: Now supports ≥0.1.0 (removed upper bound <0.4.0)
+  - `tiktoken`: Now supports ≥0.1.0 (removed upper bound <1.0.0)
+  - `sentence-transformers`: Now supports ≥2.0.0 (removed upper bound <4.0.0)
+
 ### Added
 - Initial release of Axonode Chunker
 - Semantic text chunking with cosine similarity
